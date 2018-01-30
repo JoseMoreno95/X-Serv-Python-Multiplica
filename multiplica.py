@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
+numbers = list(range(1,11))
 for first_number in numbers:
     print ("Tabla del " + str(first_number))
     for second_number in numbers:
